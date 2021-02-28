@@ -1,0 +1,74 @@
+[
+    { 
+        "title": "Senzmedical",
+        "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
+        "lang": ["PHP", "Materialize", "Jquery"],
+        "link": "http://senz-medical.com",
+        "img": "./asset/senz.jpg",
+        "text": "Visit Site" ,
+        "theme": "#1249a6"
+    },
+    { 
+        "title": "PMC Group of Companies",
+        "details": "A two-pager responsive website created with minimalism in mind.", 
+        "lang": ["PHP", "Materialize", "Jquery"],
+        "link": "http://pmcgroup.com",
+        "img": "./asset/pmcg.jpg",
+        "text": "Visit Site",
+        "theme": "#e0ac22"
+    },
+    { 
+        "title": "Progressive Medical Corporation",
+        "details": "A corporate website with administration module for blogging, product management and pdf portals for brochures.", 
+        "lang": ["PHP", "MySQL", "Materialize", "Jquery"],
+        "link": "https://pmc.ph",
+        "img": "./asset/pmc.jpg",
+        "text": "Visit Site",
+        "theme": "#22e065"
+    },
+    { 
+        "title": "Opus Academy",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["PHP", "Bootstrap 4", "Jquery"],
+        "link": "https://opusacademy.com",
+        "img": "./asset/opus.jpg",
+        "text": "Visit Site" ,
+        "theme": "#0069d9"
+    },
+    { 
+        "title": "Calculate.now.sh",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["CSS 3", "Javascript"],
+        "link": "https://calculate.now.sh",
+        "img": "./asset/calculate.jpg",
+        "text": "Visit Site" ,
+        "theme": "#8326e1"
+    },
+    { 
+        "title": "Panamed Philippines",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["PHP", "Materialize", "Jquery"],
+        "link": "https://panamed.com.ph",
+        "img": "./asset/ppi.jpg",
+        "text": "Visit Site" ,
+        "theme": "#0d3e7c"
+    },
+    { 
+        "title": "Technomed Internation",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["PHP", "Bootstrap 4", "Jquery"],
+        "link": "https://technomed.com.ph",
+        "img": "./asset/technomed.jpg",
+        "text": "Visit Site" ,
+        "theme": "#0d3e7c"
+    },
+    { 
+        "title": "Inmed Internation",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["PHP", "Materialize", "Jquery"],
+        "link": "https://inmed.com.ph",
+        "img": "./asset/inmed.jpg",
+        "text": "Visit Site" ,
+        "theme": "#ff7600"
+    }
+]
