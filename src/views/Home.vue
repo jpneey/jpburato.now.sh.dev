@@ -2,7 +2,7 @@
   <div id="home" class="d-block position-relative w-100">
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
-        <h1 class="text-white hero  mt-md-5 fw-bold mb-3">I am building<br>things for the web.</h1>
+        <h1 class="text-white hero mt-5 fw-bold mb-3">I am building<br>things for the web.</h1>
         <p class="text-white mb-4">A developer specializing on the <code>LAMP</code> stack and currently transitioning to the ways of the <code>MERN</code> stack.</p>
         <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-primary fw-bold py-3 px-5 me-3">Get in touch</a>
       </div>

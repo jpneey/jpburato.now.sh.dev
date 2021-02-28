@@ -3,7 +3,7 @@
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
         
-        <h1 class="text-white mt-md-5 hero fw-bold mb-2">
+        <h1 class="text-white mt-5 hero fw-bold mb-2">
           A developer<br>Based in the province of Rizal, Philippines.
         </h1>
         <p class="text-white mb-3">Born on June 24 1999 and graduated on April 2019.</p>
