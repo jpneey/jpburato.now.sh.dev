@@ -1,5 +1,14 @@
 [
     { 
+        "title": "The Medical Shop",
+        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
+        "lang": ["PHP", "Twig", "Opencart"],
+        "link": "https://medicalshop.ph",
+        "img": "./asset/tms.jpg",
+        "text": "Visit Site" ,
+        "theme": "#fde716"
+    },
+    { 
         "title": "Senzmedical",
         "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
         "lang": ["PHP", "Materialize", "Jquery"],
@@ -18,15 +27,6 @@
         "theme": "#e0ac22"
     },
     { 
-        "title": "Progressive Medical Corporation",
-        "details": "A corporate website with administration module for blogging, product management and pdf portals for brochures.", 
-        "lang": ["PHP", "MySQL", "Materialize", "Jquery"],
-        "link": "https://pmc.ph",
-        "img": "./asset/pmc.jpg",
-        "text": "Visit Site",
-        "theme": "#22e065"
-    },
-    { 
         "title": "Opus Academy",
         "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
         "lang": ["PHP", "Bootstrap 4", "Jquery"],
@@ -36,31 +36,13 @@
         "theme": "#0069d9"
     },
     { 
-        "title": "Calculate.now.sh",
-        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
-        "lang": ["CSS 3", "Javascript"],
-        "link": "https://calculate.now.sh",
-        "img": "./asset/calculate.jpg",
-        "text": "Visit Site" ,
-        "theme": "#8326e1"
-    },
-    { 
-        "title": "Panamed Philippines",
-        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
-        "lang": ["PHP", "Materialize", "Jquery"],
-        "link": "https://panamed.com.ph",
-        "img": "./asset/ppi.jpg",
-        "text": "Visit Site" ,
-        "theme": "#0d3e7c"
-    },
-    { 
-        "title": "Technomed Internation",
-        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "title": "Canvasspoint",
+        "details": "A custom CMS with multiple users, biddings, blogging and more!", 
         "lang": ["PHP", "Bootstrap 4", "Jquery"],
-        "link": "https://technomed.com.ph",
-        "img": "./asset/technomed.jpg",
+        "link": "https://canvasspoint.com",
+        "img": "./asset/cnp.jpg",
         "text": "Visit Site" ,
-        "theme": "#0d3e7c"
+        "theme": "#ff9800"
     },
     { 
         "title": "Inmed Internation",
