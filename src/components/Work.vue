@@ -10,7 +10,8 @@
             <div class="content">
                 <h4 class="fw-bold mb-0">{{ company }}</h4>
                 <p class="text-white mb-3"><small>{{ job }}</small></p>
-                <p class="text-secondary">{{ role }}</p>
+                <p class="text-secondary mb-4">{{ role }}</p>
+                <button v-for="tool in tools" :key="tool" class="btn btn-sm btn-secondary py-1 px-2 me-2 mb-2"><small>{{ tool }}</small></button>
             </div>
         </div>
     </div>
@@ -23,7 +24,8 @@ export default {
         duration: String,
         job: String,
         company: String,
-        role: String
+        role: String,
+        tools: Array
     }
 }
 </script>

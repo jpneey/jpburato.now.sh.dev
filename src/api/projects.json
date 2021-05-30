@@ -9,6 +9,15 @@
         "theme": "#fde716"
     },
     { 
+        "title": "PMC Portal",
+        "details": "", 
+        "lang": ["PHP", "Bootstrap 5", "WP Rest API"],
+        "link": "https://pmc.ph/portal/login/",
+        "img": "./asset/pmc-portal.png",
+        "text": "PMC Portal" ,
+        "theme": "#052a69"
+    },
+    { 
         "title": "Senzmedical",
         "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
         "lang": ["PHP", "Materialize", "Jquery"],
@@ -45,7 +54,7 @@
         "theme": "#ff9800"
     },
     { 
-        "title": "Inmed Internation",
+        "title": "Inmed Corporation",
         "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
         "lang": ["PHP", "Materialize", "Jquery"],
         "link": "https://inmed.com.ph",
