@@ -18,11 +18,11 @@
         "theme": "#052a69"
     },
     { 
-        "title": "Senzmedical",
+        "title": "Panamed",
         "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
         "lang": ["PHP", "Materialize", "Jquery"],
-        "link": "http://senz-medical.com",
-        "img": "./asset/senz.jpg",
+        "link": "https://panamed.com.ph",
+        "img": "./asset/ppi.png",
         "text": "Visit Site" ,
         "theme": "#1249a6"
     },
@@ -36,13 +36,13 @@
         "theme": "#e0ac22"
     },
     { 
-        "title": "Opus Academy",
-        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
-        "lang": ["PHP", "Bootstrap 4", "Jquery"],
-        "link": "https://opusacademy.com",
-        "img": "./asset/opus.jpg",
+        "title": "Senzmedical",
+        "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
+        "lang": ["PHP", "Materialize", "Jquery"],
+        "link": "http://senz-medical.com",
+        "img": "./asset/senz.jpg",
         "text": "Visit Site" ,
-        "theme": "#0069d9"
+        "theme": "#1249a6"
     },
     { 
         "title": "Canvasspoint",
@@ -52,6 +52,15 @@
         "img": "./asset/cnp.jpg",
         "text": "Visit Site" ,
         "theme": "#ff9800"
+    },
+    { 
+        "title": "Opus Academy",
+        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
+        "lang": ["PHP", "Bootstrap 4", "Jquery"],
+        "link": "https://opusacademy.com",
+        "img": "./asset/opus.jpg",
+        "text": "Visit Site" ,
+        "theme": "#0069d9"
     },
     { 
         "title": "Inmed Corporation",
