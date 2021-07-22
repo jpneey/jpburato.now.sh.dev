@@ -1,5 +1,32 @@
 [
     { 
+        "title": "GT Stoneworks",
+        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
+        "lang": ["PHP", "React", "Cordova"],
+        "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
+        "img": "./asset/gt.jpg",
+        "text": "Work in Progress" ,
+        "theme": "#efddaf"
+    },
+    { 
+        "title": "Hans - WIP",
+        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
+        "lang": ["HTML 5", "Bootstrap 5", "Jquery"],
+        "link": "https://mchanjo.com/dev/",
+        "img": "./asset/photo.jpg",
+        "text": "Work in Progress" ,
+        "theme": "#999999"
+    },
+    { 
+        "title": "McHanjo",
+        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
+        "lang": ["PHP", "Bootstrap 5"],
+        "link": "https://mchanjo.com/dev/",
+        "img": "./asset/mchanjo.jpg",
+        "text": "Visit Site" ,
+        "theme": "#ce2424"
+    },
+    { 
         "title": "The Medical Shop",
         "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
         "lang": ["PHP", "Twig", "Opencart"],
