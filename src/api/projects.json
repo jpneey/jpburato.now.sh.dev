@@ -1,53 +1,62 @@
 [
     { 
         "title": "GT Stoneworks",
-        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
-        "lang": ["PHP", "React", "Cordova"],
+        "details": "A mobile app created with React, Cordova and PHP.", 
+        "lang": ["App", "React", "Cordova", "PHP"],
         "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
         "img": "./asset/gt.jpg",
-        "text": "Work in Progress" ,
+        "text": "Download",
         "theme": "#efddaf"
     },
     { 
         "title": "Hans - WIP",
-        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
-        "lang": ["HTML 5", "Bootstrap 5", "Jquery"],
-        "link": "https://mchanjo.com/dev/",
+        "details": "Clean and minimalist photography portfolio template.",
+        "lang": ["Portfolio", "PHP", "Bootstrap"],
+        "link": "https://photo-mu.vercel.app/",
         "img": "./asset/photo.jpg",
-        "text": "Work in Progress" ,
+        "text": "Visit Site",
         "theme": "#999999"
     },
     { 
         "title": "McHanjo",
-        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
-        "lang": ["PHP", "Bootstrap 5"],
+        "details": "McHanjo's proposed corporate website. Created with Bootstrap5 and PHP for page routing.",
+        "lang": ["Website", "PHP", "Bootstrap"],
         "link": "https://mchanjo.com/dev/",
         "img": "./asset/mchanjo.jpg",
         "text": "Visit Site" ,
         "theme": "#ce2424"
     },
     { 
+        "title": "PMC Meet",
+        "details": "Video conferencing desktop app launcher created with Vue.js and Electron.js.", 
+        "lang": ["Desktop App", "Vue.js", "Electron.js"],
+        "link": "https://github.com/jpneey/pmc-meet/",
+        "img": "./asset/meet.jpg",
+        "text": "Visit Repo" ,
+        "theme": "#1c8f86"
+    },
+    { 
         "title": "The Medical Shop",
-        "details": "Modern ecommerce created with opencart, bootsrap 4 and Jquery.", 
-        "lang": ["PHP", "Twig", "Opencart"],
+        "details": "The first online medical store in the Philippines. Created with a modified version of Opencart 3.x.", 
+        "lang": ["Ecommerce", "Twig", "Opencart"],
         "link": "https://medicalshop.ph",
         "img": "./asset/tms.jpg",
-        "text": "Visit Site" ,
+        "text": "Shop Online" ,
         "theme": "#fde716"
     },
     { 
         "title": "PMC Portal",
-        "details": "", 
-        "lang": ["PHP", "Bootstrap 5", "WP Rest API"],
+        "details": "Product portal with hand picked prices per product per customer developed on top of wordpress and woocommerce API", 
+        "lang": ["Portal", "PHP", "WP Rest API"],
         "link": "https://pmc.ph/portal/login/",
         "img": "./asset/pmc-portal.png",
-        "text": "PMC Portal" ,
+        "text": "Visit Portal" ,
         "theme": "#052a69"
     },
     { 
         "title": "Panamed",
-        "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
-        "lang": ["PHP", "Materialize", "Jquery"],
+        "details": "A flat and modern looking minimalist website packed with a custom CMS created with PHP and Materialize.css.", 
+        "lang": ["Custom CMS", "PHP", "Materialize"],
         "link": "https://panamed.com.ph",
         "img": "./asset/ppi.png",
         "text": "Visit Site" ,
@@ -56,7 +65,7 @@
     { 
         "title": "PMC Group of Companies",
         "details": "A two-pager responsive website created with minimalism in mind.", 
-        "lang": ["PHP", "Materialize", "Jquery"],
+        "lang": ["Website", "Materialize", "Jquery"],
         "link": "http://pmcgroup.com",
         "img": "./asset/pmcg.jpg",
         "text": "Visit Site",
@@ -65,7 +74,7 @@
     { 
         "title": "Senzmedical",
         "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
-        "lang": ["PHP", "Materialize", "Jquery"],
+        "lang": ["Website", "Materialize", "Jquery"],
         "link": "http://senz-medical.com",
         "img": "./asset/senz.jpg",
         "text": "Visit Site" ,
@@ -74,16 +83,16 @@
     { 
         "title": "Canvasspoint",
         "details": "A custom CMS with multiple users, biddings, blogging and more!", 
-        "lang": ["PHP", "Bootstrap 4", "Jquery"],
+        "lang": ["Web System", "PHP", "Materialize"],
         "link": "https://canvasspoint.com",
         "img": "./asset/cnp.jpg",
-        "text": "Visit Site" ,
+        "text": "Start Bidding" ,
         "theme": "#ff9800"
     },
     { 
         "title": "Opus Academy",
         "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
-        "lang": ["PHP", "Bootstrap 4", "Jquery"],
+        "lang": ["Website", "Bootstrap", "Jquery"],
         "link": "https://opusacademy.com",
         "img": "./asset/opus.jpg",
         "text": "Visit Site" ,
@@ -91,8 +100,8 @@
     },
     { 
         "title": "Inmed Corporation",
-        "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
-        "lang": ["PHP", "Materialize", "Jquery"],
+        "details": "Material design inspired website with blogging module and integrated opencart.", 
+        "lang": ["Website", "PHP", "Materialize"],
         "link": "https://inmed.com.ph",
         "img": "./asset/inmed.jpg",
         "text": "Visit Site" ,

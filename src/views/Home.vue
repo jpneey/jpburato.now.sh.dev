@@ -10,7 +10,7 @@
   </div>
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3">
-      <Itemcard v-for="project in projects" :key="project" :link="project.link" :title="project.title" :image="project.img" :theme="project.theme" :langs="project.lang" />
+      <Itemcard v-for="project in projects" :key="project" :link="project.link" :text="project.text" :detail="project.details" :title="project.title" :image="project.img" :theme="project.theme" :langs="project.lang" />
     </div>
   </div>
 </template>
@@ -28,26 +28,11 @@ const toTop = () => {
 }
 
 const isElemVisible = (el) => {
-  
+  var offset = 90
   var rect = el.getBoundingClientRect()
   var elemTop = rect.top
   var elemBottom = rect.bottom
-  return elemTop < window.innerHeight && elemBottom >= 0
-}
-
-const handleScroll = (evt) => {
-  var fadeInElements = Array.from(document.getElementsByClassName('fade-in'));
-  for (var i = 0; i < fadeInElements.length; i++) {
-    var elem = fadeInElements[i]
-    if (isElemVisible(elem)) {
-      elem.style.opacity = '1'
-      elem.style.transform = 'scale(1)'
-      /* fadeInElements.splice(i, 1) */
-    } else {
-      elem.style.opacity = '0'
-      elem.style.transform = 'scale(0.8)'
-    }
-  }
+  return elemTop < window.innerHeight + offset && elemBottom >= offset
 }
 
 export default {
@@ -64,17 +49,6 @@ export default {
     '$route' (to, from) {
       toTop();
     }
-  },
-  setup() {
-    onMounted(() => {
-      handleScroll();
-      document.addEventListener('scroll', handleScroll);
-    })
-
-    onUnmounted(() => {
-      document.removeEventListener('scroll', handleScroll);
-    })
   }
-
 }
 </script>

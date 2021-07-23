@@ -1,17 +1,22 @@
 <template>
     <div class="col">
         <div class="d-block position-relative mb-4 fade-in">
-            <div class="item-image d-block position-relative w-100 bg-light rounded-3 overflow-hidden">
+            <div class="item-image d-block position-relative w-100 bg-light overflow-hidden">
+
+                <p class="detail d-block w-100 bg-white position-absolute start-0 bottom-0">
+                    <span class="d-block w-100 pt-5 pb-4 px-4 fw-bold text-body border-bottom">
+                        <span class="title">{{ title }}</span>
+                        {{ detail }}
+                    </span>
+                    <span class="d-block item-link text-decoration-none bg-white px-4 py-3 w-100 fw-bold text-body">
+                        <span class="lang-wrap d-block"><span v-for="lang in langs" :key="lang" class="text-secondary me-2"><small>{{ lang }}</small></span></span>
+                    </span>
+                        
+                    <a :href="link" target="_blank" class="position-absolute bottom-0 end-0 material-icons text-dark text-decoration-none py-3 px-4">east</a>
+                </p>
                 <div class="overlay position-absolute top-0 start-0 w-100" :style="'background:' + theme"></div>
-                <img :src="image" :alt="title" class="w-100 position-absolute shadow-lg rounded-3">
-                <a :href="link" target="_blank" class="item-link text-white">
-                    <i class="material-icons position-absolute top-50 start-50 bg-white p-3 rounded-circle shadow" :style="'color:' + theme">open_in_new</i>
-                </a>
+                <img :src="image" :alt="title" class="position-absolute shadow-lg rounded-3">
             </div>
-            <p class="fw-bold text-white mt-3 mb-0">{{ title }}</p>
-            <p>
-                <span v-for="lang in langs" :key="lang" class="text-secondary me-2"><small>{{ lang }}</small></span>
-            </p>
         </div>
     </div>
 </template>
@@ -24,7 +29,9 @@ export default {
         image: String,
         theme: String,
         langs: Array,
-        link: String
+        link: String,
+        text: String,
+        detail: String
     }
 }
 </script>

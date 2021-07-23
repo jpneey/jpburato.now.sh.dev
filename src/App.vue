@@ -1,4 +1,7 @@
 <template>
+
+  <div class="blob"></div>
+
   <div id="nav">
     <div class="container clear">
       <router-link to="/" class="logo">
@@ -13,7 +16,7 @@
     </div>
   </div>
   
-  <router-view/>
+  <router-view />
   
   <div class="bg-light mt-5 shadow-lg">
     <div class="point p-3"></div>
