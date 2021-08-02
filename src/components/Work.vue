@@ -2,12 +2,12 @@
     <div class="row mb-5">
         <div class="col col-12 col-md-4">
             <div class="aside">
-                <p>{{ duration }}</p>
+                <h5>{{ total }}</h5>
+                <p class="text-secondary">{{ duration }}</p>
             </div>
         </div>
-
         <div class="col col-12 col-md-8">
-            <div class="content">
+            <div class="content position-relative">
                 <h4 class="fw-bold mb-0">{{ company }}</h4>
                 <p class="text-white mb-3"><small>{{ job }}</small></p>
                 <p class="text-secondary mb-4">{{ role }}</p>
@@ -25,7 +25,8 @@ export default {
         job: String,
         company: String,
         role: String,
-        tools: Array
+        tools: Array,
+        total: String,
     }
 }
 </script>

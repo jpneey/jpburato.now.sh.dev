@@ -1,14 +1,5 @@
 [
     { 
-        "title": "GT Stoneworks",
-        "details": "A mobile app created with React, Cordova and PHP.", 
-        "lang": ["App", "React", "Cordova", "PHP"],
-        "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
-        "img": "./asset/gt.jpg",
-        "text": "Download",
-        "theme": "#efddaf"
-    },
-    { 
         "title": "Hans - WIP",
         "details": "Clean and minimalist photography portfolio template.",
         "lang": ["Portfolio", "PHP", "Bootstrap"],
@@ -25,6 +16,24 @@
         "img": "./asset/mchanjo.jpg",
         "text": "Visit Site" ,
         "theme": "#ce2424"
+    },
+    { 
+        "title": "Progressive Medical Corporation",
+        "details": "A responsive website that features it's own custom CMS where admins can edit it's content.", 
+        "lang": ["Website", "Materialize", "PHP"],
+        "link": "https://pmc.ph/",
+        "img": "./asset/pmc.jpg",
+        "text": "Visit Site",
+        "theme": "#10155e"
+    },
+    { 
+        "title": "GT Stoneworks",
+        "details": "A mobile app created with React, Cordova and PHP.", 
+        "lang": ["App", "React", "Cordova", "PHP"],
+        "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
+        "img": "./asset/gt.jpg",
+        "text": "Download",
+        "theme": "#efddaf"
     },
     { 
         "title": "PMC Meet",

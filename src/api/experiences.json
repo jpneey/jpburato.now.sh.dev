@@ -4,27 +4,31 @@
       "position": "Website Developer",
       "company": "Progressive Medical Corporation",
       "role": "Developed various websites and web-based systems with the LAMP stack. From UI/UX drafting, project file system designing, Database design up to configuring Apache servers on deployment.",
-      "tool": ["PHP", "MySQL", "Jquery", "Bootstrap", "Materialize", "Vue.js", "Cordova", "Electron", "Twig", "Opencart", "Wordpress API", "GIT"]
+      "tool": ["PHP", "MySQL", "Jquery", "Bootstrap", "Materialize", "Vue.js", "Cordova", "Electron", "Twig", "Opencart", "Wordpress API", "GIT"],
+      "total": "2 Years"
     },
     {
       "duration": "May 2019 – Jul 2019",
       "position": "Website Developer",
       "company": "Bigtime Empire Corporation",
       "role": "Managed nginx webservers and maintained various wordpress created websites using Elementor and DIVI.",
-      "tool": ["PHP", "MySQL", "Wordpress", "DIVI", "Elementor", "Jquery"]
+      "tool": ["PHP", "MySQL", "Wordpress", "DIVI", "Elementor", "Jquery"],
+      "total": "3 Months"
     },
     {
       "duration": "Nov 2018 – Mar 2019",
       "position": "Intern",
       "company": "Dibztech Inc.",
       "role": "Collaborated with fellow interns using GIT and helped further the development of an internal web-based system written in Laravel and Vue.js.",
-      "tool": ["PHP", "Laravel", "MySQL", "Vue.js", "Sass", "Bootstrap", "GIT"]
+      "tool": ["PHP", "Laravel", "MySQL", "Vue.js", "Sass", "Bootstrap", "GIT"],
+      "total": "5 Months"
     },
     {
       "duration": "Jun 2018 – Present",
       "position": "Software Developer",
       "company": "Freelancing",
-      "role": "Aside from working full time in the corporate world, I’ve become a freelance developer and served clients such as Canvasspoint, Bigtime Empire, Technomed, GT Stoneworks and undergraduate Masteral Professors.",
-      "tool": ["Ren'Py", "PHP", "MySQL", "Vue.js", "Bootstrap", "Materialize", "Cordova"]
+      "role": "Aside from working full time in the corporate world, I’m also a freelance developer and served clients such as Canvasspoint, Bigtime Empire, Technomed, GT Stoneworks and several undergraduate Masteral Professors.",
+      "tool": ["Ren'Py", "PHP", "MySQL", "Vue.js", "Bootstrap", "Materialize", "Cordova"],
+      "total": "3 Years"
     }
 ]

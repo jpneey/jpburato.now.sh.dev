@@ -17,11 +17,19 @@
   </div>
   
   <router-view />
+
+  <div id="itch" class="d-block position-relative w-100  mt-5">
+    <div class="container d-block text-center position-relative py-5">
+      <div class="d-block py-5 mt-3">
+        <p class="text-white mb-4">Before I dedicated myself for the web,<br>I also developed various games using <code>Python</code> and <code>Ren'py</code> and published it on itch.io for free.</p>
+        <a href="https://jpe.itch.io/" target="_blank" class="btn btn-primary fw-bold py-3 px-5 me-3">Visit Itch.io</a>
+      </div>
+    </div>
+  </div>
   
-  <div class="bg-light mt-5 shadow-lg">
+  <div class="bg-light shadow-lg">
     <div class="point p-3"></div>
     <div class="container">
-      
 
       <div class="row row-cols-1">
         <div class="col">
