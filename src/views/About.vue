@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="d-block position-relative w-100">
+  <div id="home" class="d-block position-relative w-100 pt-5">
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
         <h1 class="text-white mt-5 hero fw-bold mb-2">

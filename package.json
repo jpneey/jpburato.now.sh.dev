@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "swiper": "^10.0.4",
     "vue": "^3.0.0",
     "vue-analytics": "^5.22.1",
     "vue-router": "^4.0.0-0"

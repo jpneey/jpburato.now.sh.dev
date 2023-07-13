@@ -2,13 +2,13 @@
     <div class="col">
         <a :href="link" target="_blank">
             <div class="d-block position-relative mb-4 fade-in">
-                <div class="item-image to-enter d-block position-relative w-100 bg-light overflow-hidden">
+                <div class="item-image to-enter d-block position-relative w-100 overflow-hidden">
                     <p class="detail d-block w-100 bg-white position-absolute start-0 bottom-0">
-                        <span class="d-block w-100 pt-5 pb-4 px-4 fw-bold text-body border-bottom">
+                        <span class="d-block w-100 pt-5 pb-4 px-4 fw-bold text-body">
                             <span class="title">{{ title }}</span>
                             {{ detail }}
                         </span>
-                        <span class="d-block item-link text-decoration-none bg-white px-4 py-3 w-100 fw-bold text-body">
+                        <span class="d-block item-link text-decoration-none px-4 py-3 w-100 fw-bold text-body">
                             <span class="lang-wrap d-block"><span v-for="lang in langs" :key="lang" class="text-secondary me-2"><small>{{ lang }}</small></span></span>
                         </span>
                     </p>
