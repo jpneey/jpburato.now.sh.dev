@@ -2,9 +2,10 @@
   <div id="home" class="d-block position-relative w-100">
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
-        <h1 class="text-white hero mt-5 fw-bold mb-3">I am building<br>things for the web.</h1>
-        <p class="text-white mb-4">A developer specializing on the <code>LAMP</code> stack, <code>Vue 3</code> and <code>Electron</code>.<br>Feel free to scroll down to see some of my works</p>
-        <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-primary fw-bold py-3 px-5 me-3">Get in touch</a>
+        <h1 class="text-white hero mt-5 fw-bold mb-3">I am <em>building</em><br>things for the web.</h1>
+        <p class="text-white mb-4">I specialize on the <code>LAMP</code> stack, <code>Wordpress core</code> and <code>WooCommerce</code>.<br>Scroll down to see some of my works</p>
+        <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch</a>
+        <router-link to="/about" class="btn btn-primary d-none d-md-inline-block fw-bold py-3 px-5 me-3">About</router-link>
       </div>
     </div>
   </div>

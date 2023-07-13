@@ -6,7 +6,7 @@
                 <p class="text-secondary">{{ duration }}</p>
             </div>
         </div>
-        <div class="col col-12 col-md-8">
+        <div class="col col-12 col-md-8 work-details">
             <div class="content position-relative">
                 <h4 class="fw-bold mb-0">{{ company }}</h4>
                 <p class="text-white mb-3"><small>{{ job }}</small></p>
@@ -35,7 +35,7 @@ export default {
             if ( total == null && this.start ) {
                 let start_date = Date.parse( this.start )
                 let end_date   = Date.now()
-                return new Date( end_date - start_date ).getFullYear() - 1970 + " year(s)";
+                return new Date( end_date - start_date ).getFullYear() - 1970 + " years & counting";
             }
             return this.total;
         }

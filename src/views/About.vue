@@ -3,10 +3,10 @@
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
         <h1 class="text-white mt-5 hero fw-bold mb-2">
-          A developer<br>Based in the Philippines.
+          A developer<br>Based in the <em>Philippines</em>.
         </h1>
-        <p class="text-white mb-3">Writing software since <code>2018</code>. I'm always available for <code>freelance</code>.</p>
-        <a href="./asset/jp-resume.pdf" target="_blank" class="btn btn-primary fw-bold py-3 px-5 me-3">Resume <i class="material-icons align-middle ms-2">open_in_new</i></a>
+        <p class="text-white mb-3">Writing code since <code>2018</code>. I'm always available for <code>freelance</code>.</p>
+        <a href="./asset/jp-resume.pdf" target="_blank" class="btn btn-danger fw-bold py-3 px-5 me-3">Resume <i class="material-icons align-middle ms-2">open_in_new</i></a>
       </div>
     </div>
     <div class="container d-block position-relative text-white">

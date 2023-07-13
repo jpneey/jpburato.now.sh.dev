@@ -5,29 +5,21 @@
   <div id="nav">
     <div class="container clear">
       <router-link to="/" class="logo">
-        <div class="rounded-circle avatar border border-4 bg-white d-block position-absolute overflow-hidden">
-          <img src="/asset/jp.jpg" alt="JP" class="w-100">
+        <div class="rounded-circle avatar border border-4 bg-white d-block position-absolute overflow-hidden pulse">
+          <img src="/asset/gravatar.png" alt="JP" class="w-100">
         </div>
       </router-link>
       <div class="nav-links">
         <router-link to="/" class="nav-a">Home</router-link>
         <router-link to="/about" class="nav-a">About</router-link>
+        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io</a>
       </div>
     </div>
   </div>
   
   <router-view />
 
-  <div id="itch" class="d-block position-relative w-100  mt-5">
-    <div class="container d-block text-center position-relative py-5">
-      <div class="d-block py-5 mt-3">
-        <p class="text-white mb-4">Before I dedicated myself for the web,<br>I also developed various games using <code>Python</code> and <code>Ren'py</code> and published it on itch.io for free.</p>
-        <a href="https://jpe.itch.io/" target="_blank" class="btn btn-primary fw-bold py-3 px-5 me-3">Visit Itch.io</a>
-      </div>
-    </div>
-  </div>
-  
-  <div class="bg-light shadow-lg">
+  <div class="bg-light shadow-lg mt-5">
     <div class="point p-3"></div>
     <div class="container">
 
