@@ -2,7 +2,7 @@
     <div class="row mb-5">
         <div class="col col-12 col-md-4">
             <div class="aside">
-                <h5>{{ total }}</h5>
+                <h5>{{ calculateTotal }}</h5>
                 <p class="text-secondary">{{ duration }}</p>
             </div>
         </div>
@@ -27,6 +27,18 @@ export default {
         role: String,
         tools: Array,
         total: String,
+        start: String
+    },
+    computed: {
+        calculateTotal() {
+            let total = this.total;
+            if ( total == null && this.start ) {
+                let start_date = Date.parse( this.start )
+                let end_date   = Date.now()
+                return new Date( end_date - start_date ).getFullYear() - 1970 + " year(s)";
+            }
+            return this.total;
+        }
     }
 }
 </script>

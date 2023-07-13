@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="container d-block position-relative text-white">
-      <Work v-for="experience in experiences" :key="experience" :job="experience.position" :total="experience.total" :role="experience.role" :duration="experience.duration" :company="experience.company" :tools="experience.tool" />
+      <Work v-for="experience in experiences" :key="experience" :job="experience.position" :total="experience.total" :role="experience.role" :duration="experience.duration" :company="experience.company" :tools="experience.tool" :start="experience.start || null" />
     </div>
   </div>
 </template>
