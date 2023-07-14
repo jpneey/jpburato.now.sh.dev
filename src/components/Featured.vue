@@ -2,7 +2,7 @@
     <div class="position-relative overflow-hidden featured-work d-flex align-items-end item-image mb-4 w-100 h-100" :style="'background:' + theme">
         <div class="row align-items-center w-100 mx-0 position-relative">
             <div class="col col-12 col-md-5">
-				<div class="px-4 py-5 px-md-5 pe-md-0">
+				<div class="featured-content px-4 py-5 px-md-5 pe-md-0">
 					<h3 class="text-white hero my-3 fw-bold" v-html="title"></h3>
 					<p class="my-0 text-white p-small" v-html="content"></p>
 				</div>
@@ -16,6 +16,9 @@
 					:pagination="true"
 					:pagination-dynamic-bullets="true"
 					:injectStyles="[styles]"
+					:loop="true"
+					:autoplay-delay="2500"
+					:autoplay-disable-on-interaction="false"
 					@progress="onProgress"
 					@slidechange="onSlideChange"
 				>

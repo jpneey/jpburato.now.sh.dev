@@ -5,7 +5,7 @@
   <div id="nav">
     <div class="container clear">
       <router-link to="/" class="logo">
-        <div class="rounded-circle avatar border border-4 bg-white d-block position-absolute overflow-hidden pulse">
+        <div class="rounded-circle avatar border border-4 bg-white d-block position-absolute overflow-hidden pulse-red">
           <img src="/asset/gravatar.png" alt="JP" class="w-100">
         </div>
       </router-link>
@@ -19,7 +19,15 @@
   
   <router-view />
 
-  <div class="bg-light shadow-lg mt-5">
+  <div class="hello">
+    <div class="track">
+      <h3>Hello.Hello.Hello.</h3>
+    </div>
+    <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 position-absolute bottom-0 mb-5 start-50 translate-middle-x pulse">Contact</a>
+
+  </div>
+
+  <div class="bg-light shadow-lg">
     <div class="point p-3"></div>
     <div class="container">
 

@@ -289,7 +289,7 @@ i a {
   color: #fff;
 }
 
-.pulse {
+.pulse-red {
   box-shadow: 0 0 0 #b51a29;
   animation: pulse 2s infinite
 }
@@ -307,7 +307,24 @@ i a {
       box-shadow: 0 0 0 0 rgba(204,169,44,0)
   }
 }
+.pulse {
+  box-shadow: 0 0 0 #000000;
+  animation: pulse-dark 1.5s infinite
+}
 
+@keyframes pulse-dark {
+  0% {
+      box-shadow: 0 0 0 0 #000000
+  }
+
+  70% {
+      box-shadow: 0 0 0 10px rgba(204,169,44,0)
+  }
+
+  100% {
+      box-shadow: 0 0 0 0 rgba(204,169,44,0)
+  }
+}
 .p-small {
   font-size: 14px;
   opacity: .7;
@@ -329,4 +346,76 @@ i a {
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
     height: 25px !important;
     color: #fff !important;
+}
+
+
+.item-link__on-card,
+.item-link {
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -40%);
+  transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 3;
+  background: rgb(0 0 0 / 35%);
+}
+.item-link__on-card { transform: translateY(10px); }
+.item-image:hover .item-link {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.item-image:hover .item-link__on-card { transform: translateY(10px); }
+
+.item-link:hover {
+  background: rgb(0 0 0 / 55%);
+}
+
+.hello {
+  height: 400px;	
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+ .hello h3 {
+  font-size: 400px;
+  color: #26091a;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+  bottom: -100px;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+
+@media screen and (max-width: 600px) {
+  .featured-work {
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .featured-content { height: 250px; }
+  .featured-image { width: calc( 100% - 16px ) !important; }
+  .item-image .detail {
+    opacity: 1;
+    background: rgb(255 255 255 / 80%) !important;
+    backdrop-filter: blur( 8px );
+  }
+
+  .hello { height: 300px; }
+  
+  .item-image {
+    height: 350px;
+  }
+
 }

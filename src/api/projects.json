@@ -38,7 +38,7 @@
     { 
         "title": "PMC Meet",
         "details": "Video conferencing desktop app launcher created with Vue.js and Electron.js.", 
-        "lang": ["Desktop App", "Vue.js", "Electron.js"],
+        "lang": ["Desktop", "Vue.js", "Electron.js"],
         "link": "https://github.com/jpneey/pmc-meet/",
         "img": "./asset/meet.jpg",
         "text": "Visit Repo" ,
