@@ -378,12 +378,13 @@ i a {
   width: 100%;
 }
  .hello h3 {
-  font-size: 400px;
+  font-size: 200px;
   color: #26091a;
   font-weight: 900;
   margin: 0;
-  line-height: 1;
+  line-height: 300px;
   text-align: center;
+  letter-spacing: 15px;
   white-space: nowrap;
 }
 .track {

@@ -12,7 +12,7 @@
       <div class="nav-links">
         <router-link to="/" class="nav-a">Home</router-link>
         <router-link to="/about/" class="nav-a">About</router-link>
-        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io &#8599;</a>
+        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io<span class="d-none d-md-inline ps-2"> &#8599;</span></a>
       </div>
     </div>
   </div>
@@ -21,10 +21,12 @@
 
   <div class="hello">
     <div class="track">
-      <h3>Hello.Hello.Hello.</h3>
+      <h3>Connect.Соединять.Verbinden.Kumonekta</h3>
     </div>
-    <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 position-absolute bottom-0 mb-5 start-50 translate-middle-x pulse">Contact</a>
-
+    <div class="position-absolute bottom-0 mb-5 start-50 translate-middle-x text-center text">
+      <h2 class="h1 text-white fw-bold hero mb-4">Let's build your <em>project</em>.</h2>
+      <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 pulse">Contact me</a>
+    </div>
   </div>
 
   <div class="bg-light shadow-lg">
