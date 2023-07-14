@@ -11,8 +11,8 @@
       </router-link>
       <div class="nav-links">
         <router-link to="/" class="nav-a">Home</router-link>
-        <router-link to="/about" class="nav-a">About</router-link>
-        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io</a>
+        <router-link to="/about/" class="nav-a">About</router-link>
+        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io &#8599;</a>
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@
         <h1 class="text-white hero mt-5 fw-bold mb-3">I am <em>building</em><br>things for the web.</h1>
         <p class="text-white mb-4">I specialize on the <code>LAMP</code> stack, <code>Wordpress core</code> and <code>WooCommerce</code>.<br>Scroll down to see some of my work.</p>
         <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch</a>
-        <router-link to="/about" class="btn btn-primary d-none d-md-inline-block fw-bold py-3 px-5 me-3">About</router-link>
+        <router-link to="/about/" class="btn btn-primary d-none d-md-inline-block fw-bold py-3 px-5 me-3">About</router-link>
       </div>
     </div>
   </div>
