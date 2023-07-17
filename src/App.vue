@@ -25,7 +25,7 @@
     </div>
     <div class="position-absolute bottom-0 mb-5 start-50 translate-middle-x text-center text">
       <h2 class="h1 text-white fw-bold hero mb-4">Let's build your <em>project</em>.</h2>
-      <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 pulse">Contact me</a>
+      <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 pulse">Contact</a>
     </div>
   </div>
 
