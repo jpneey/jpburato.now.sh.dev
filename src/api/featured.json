@@ -1,18 +1,9 @@
 [
-    
-    { 
-        "title": "Explore some<br>of my <em>latest work</em> .",
-        "details": "",
-        "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "link": null,
-        "img": "./asset/jip.jpg",
-        "text": "Visit Site",
-        "theme": "#26091a"
-    },
     { 
         "title": "Peak Pilates",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A woocommerce supported theme with several bespoke functionalies.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "eCommerce",
         "link": "https://peakpilates.co.uk/",
         "img": "./asset/pp.jpg",
         "text": "Visit Site",
@@ -22,24 +13,47 @@
         "title": "Marshal Papworth",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Flat, clean and bold colors with custom post type and map integration.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Membership Portal",
         "link": "https://www.marshalpapworth.com/",
         "img": "./asset/mp.jpg",
         "text": "Visit Site",
         "theme": "#8fc33e"
     },
     { 
+        "title": "The Medical Shop",
+        "details": "The first online medical store in the Philippines. Opencart 3.x. theme created from scratch", 
+        "lang": ["Ecommerce", "Twig", "Opencart"],
+        "link": "https://medicalshop.ph",
+        "img": "./asset/tms.jpg",
+        "text": "Shop Online" ,
+        "feature" : "eCommerce",
+        "theme": "#fde716"
+    },
+    { 
         "title": "Titanium Fireworks",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Brochure Site",
         "link": "https://www.titaniumfireworks.com/",
         "img": "./asset/tf.jpg",
         "text": "Visit Site",
         "theme": "#2d2d2d"
     },
     { 
+        "title": "GT Stoneworks",
+        "details": "A mobile app created with React, Cordova and PHP.", 
+        "lang": ["App", "React", "Cordova", "PHP"],
+        "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
+        "img": "./asset/gt.jpg",
+        "text": "Download",
+        "feature" : "Mobile App",
+        "theme": "#efddaf"
+    },
+    { 
         "title": "Stirling Maynard",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Flat, with good amount of spacing. A bespoke theme from scratch",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Corporate Website",
         "link": "https://stirlingmaynard.com/",
         "img": "./asset/sm.jpg",
         "text": "Visit Site",
@@ -49,6 +63,7 @@
         "title": "SciChart",
         "details": "<i>One of my biggest projects from <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A fresh and modern theme that plays with dark and gradient colours.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Forums & SSO",
         "link": "https://www.scichart.com/",
         "img": "./asset/sc.jpg",
         "text": "Visit Site",

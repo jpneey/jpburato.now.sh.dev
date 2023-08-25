@@ -6,6 +6,7 @@
         "link": "https://photo-mu.vercel.app/",
         "img": "./asset/photo.jpg",
         "text": "Visit Site",
+        "feature" : "Portfolio",
         "theme": "#999999"
     },
     { 
@@ -15,6 +16,7 @@
         "link": "https://mchanjo.com/dev/",
         "img": "./asset/mchanjo.jpg",
         "text": "Visit Site" ,
+        "feature" : "Brochure Site",
         "theme": "#ce2424"
     },
     { 
@@ -24,16 +26,8 @@
         "link": "https://pmc.ph/",
         "img": "./asset/pmc.jpg",
         "text": "Visit Site",
+        "feature" : "Corporate Site",
         "theme": "#10155e"
-    },
-    { 
-        "title": "GT Stoneworks",
-        "details": "A mobile app created with React, Cordova and PHP.", 
-        "lang": ["App", "React", "Cordova", "PHP"],
-        "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
-        "img": "./asset/gt.jpg",
-        "text": "Download",
-        "theme": "#efddaf"
     },
     { 
         "title": "PMC Meet",
@@ -42,16 +36,8 @@
         "link": "https://github.com/jpneey/pmc-meet/",
         "img": "./asset/meet.jpg",
         "text": "Visit Repo" ,
+        "feature" : "Desktop App",
         "theme": "#1c8f86"
-    },
-    { 
-        "title": "The Medical Shop",
-        "details": "The first online medical store in the Philippines. Created with a modified version of Opencart 3.x.", 
-        "lang": ["Ecommerce", "Twig", "Opencart"],
-        "link": "https://medicalshop.ph",
-        "img": "./asset/tms.jpg",
-        "text": "Shop Online" ,
-        "theme": "#fde716"
     },
     { 
         "title": "PMC Portal",
@@ -60,6 +46,7 @@
         "link": "https://pmc.ph/portal/login/",
         "img": "./asset/pmc-portal.png",
         "text": "Visit Portal" ,
+        "feature" : "Shopping portal",
         "theme": "#052a69"
     },
     { 
@@ -69,6 +56,7 @@
         "link": "https://panamed.com.ph",
         "img": "./asset/ppi.png",
         "text": "Visit Site" ,
+        "feature" : "Corporate Site",
         "theme": "#1249a6"
     },
     { 
@@ -78,6 +66,7 @@
         "link": "http://pmcgroup.com",
         "img": "./asset/pmcg.jpg",
         "text": "Visit Site",
+        "feature" : "Corporate Site",
         "theme": "#e0ac22"
     },
     { 
@@ -87,6 +76,7 @@
         "link": "http://senz-medical.com",
         "img": "./asset/senz.jpg",
         "text": "Visit Site" ,
+        "feature" : "Brochure Site",
         "theme": "#1249a6"
     },
     { 
@@ -96,6 +86,7 @@
         "link": "https://canvasspoint.com",
         "img": "./asset/cnp.jpg",
         "text": "Start Bidding" ,
+        "feature" : "Membership Portal",
         "theme": "#ff9800"
     },
     { 
@@ -105,6 +96,7 @@
         "link": "https://opusacademy.com",
         "img": "./asset/opus.jpg",
         "text": "Visit Site" ,
+        "feature" : "Multi Language",
         "theme": "#0069d9"
     },
     { 
@@ -114,6 +106,7 @@
         "link": "https://inmed.com.ph",
         "img": "./asset/inmed.jpg",
         "text": "Visit Site" ,
+        "feature" : "Corporate Site",
         "theme": "#ff7600"
     }
 ]

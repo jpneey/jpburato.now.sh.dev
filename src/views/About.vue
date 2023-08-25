@@ -6,17 +6,19 @@
           A developer<br>Based in the <em>Philippines</em>.
         </h1>
         <p class="text-white mb-3">Writing code and building things for the web since <code>2018</code>.</p>
-        <a href="mailto:johnpaulburato.jp@gmail.com" target="_blank" class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch <i class="material-icons align-middle ms-2">open_in_new</i></a>
+        <router-link to="/contact/"  class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch <i class="material-icons align-middle ms-2">open_in_new</i></router-link>
       </div>
     </div>
     <div class="container d-block position-relative text-white">
       <Work v-for="experience in experiences" :key="experience" :job="experience.position" :total="experience.total" :role="experience.role" :duration="experience.duration" :company="experience.company" :tools="experience.tool" :start="experience.start || null" />
     </div>
   </div>
+  <Footer></Footer>
 </template>
 
 <script>
-import Work from '@/components/Work'
+import Work from '@/components/Work';
+import Footer from '@/components/Footer';
 import experiences from '@/api/experiences.json';
 
 const toTop = () => {
@@ -34,7 +36,8 @@ export default {
     }
   },
   components: {
-    Work
+    Work,
+    Footer
   },
   watch: {
     '$route' (to, from) {

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import gA from 'vue-analytics'
-
+import Home from '../views/Home';
+import About from '../views/About';
+import Contact from '../views/Contact';
 
 const routes = [
   {
@@ -21,9 +21,23 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue'),
+    component: About,
     meta: {
       title: 'About - John Paul Burato',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'A website and visual novel developer and a Bachelor of Science In Information Technology graduate from a state university in the province of Rizal, Philippines'
+        }
+      ]
+    }
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact,
+    meta: {
+      title: 'Contact - John Paul Burato',
       metaTags: [
         {
           name: 'description',
@@ -51,6 +65,9 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  }
 })
 
 router.beforeEach((to, from, next) => {

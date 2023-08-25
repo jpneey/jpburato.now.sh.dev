@@ -1,6 +1,8 @@
 <template>
 
-  <div class="blob"></div>
+  <div class="blob overflow-hidden">
+    <Blob></Blob>
+  </div>
 
   <div id="nav">
     <div class="container clear">
@@ -16,18 +18,17 @@
       </div>
     </div>
   </div>
-  
-  <router-view />
 
-  <div class="hello">
-    <div class="track">
-      <h3>Connect.Соединять.Verbinden.Kumonekta</h3>
-    </div>
-    <div class="position-absolute bottom-0 mb-5 start-50 translate-middle-x text-center text">
-      <h2 class="h1 text-white fw-bold hero mb-4">Let's build your <em>project</em>.</h2>
-      <a href="mailto:johnpaulburato.jp@gmail.com" class="btn btn-danger fw-bold py-3 px-5 pulse">Contact</a>
-    </div>
+  <div class="overflow-hidden position-relative">
+    <router-view v-slot="{ Component, route }">
+      <transition name="page-fade">
+        <div class="w-100 overflow-hidden top-0 start-0 position-relative-soft" :key="route.path">
+          <component :is="Component" />
+        </div>
+      </transition>
+    </router-view>
   </div>
+  
 
   <div class="bg-light shadow-lg">
     <div class="point p-3"></div>
@@ -86,3 +87,14 @@
     </div>
   </div>
 </template>
+
+<script>
+  import Blob from '@/components/Blob';
+
+  export default {
+    name: 'Home',
+    components: {
+      Blob
+    }
+  }
+</script>
