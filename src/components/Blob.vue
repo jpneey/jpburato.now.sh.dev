@@ -27,10 +27,10 @@ export default {
             // our <path> element
             const path = document.querySelector("path");
             // used to set our custom property values
-            const root = document.documentElement;
+            const root = document.querySelector("#blob-svg");
 
             let hueNoiseOffset = 0;
-            let noiseStep = 0.005;
+            let noiseStep = 0.001;
 
             const noise2D = createNoise2D();
 

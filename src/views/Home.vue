@@ -14,24 +14,26 @@
     <span @click="showFeatured = true, showAll = false" :class="[showFeatured ? 'on' : '']" class="text-secondary text-uppercase fw-small me-3">Recent works ({{ featured.length }})</span>
     <span @click="showFeatured = false, showAll = true" :class="[showAll ? 'on' : '']" class="text-secondary text-uppercase fw-small">All ({{ projects.length }})</span>
   </div>
-
-  <div class="circle-container container position-relative overflow-hidden">
-    <div class="d-none d-md-block floating-image" :style="{ backgroundColor: circleColor }">
-      <div class="floating-window position-absolute start-50 bottom-0" :style="{ backgroundImage: 'url('+ circleImage +')' }"></div>
-      <div class="floating-circle rounded-circle d-flex align-items-center justify-content-center position-absolute top-50 start-50 translate-middle">
-        <i class="material-icons align-middle text-white">open_in_new</i>
+  <div class="container">
+    <div class="circle-container position-relative overflow-hidden pt-4">
+      <div class="d-none d-md-flex align-items-center justify-content-center pulse floating-image" :style="{ backgroundColor: circleColor }">
+        <span class="text-white">+</span>
       </div>
+      <TransitionGroup name="slide-fade" datamode="out-in">
+        <div v-if="showFeatured" class="content">
+          <div class="row row-cols-1 row-cols-md-2">
+            <Itemcard v-on:cardHover="updateCircle" v-for="project in featured" :key="project" :link="project.link" :text="project.text" :detail="project.details" :title="project.title" :image="project.img" :theme="project.theme" :feature="project.feature" :langs="project.lang" :slug="project.slug" />
+          </div>
+        </div>
+        <div v-if="showAll" class="content">
+          <div class="row row-cols-1 row-cols-md-2">
+            <Itemcard v-on:cardHover="updateCircle" v-for="project in projects" :key="project" :link="project.link" :text="project.text" :detail="project.details" :title="project.title" :image="project.img" :theme="project.theme" :feature="project.feature" :langs="project.lang" :slug="project.slug" />
+          </div>
+        </div>
+      </TransitionGroup>
     </div>
-    <TransitionGroup name="slide-fade" datamode="out-in">
-      <div v-if="showFeatured" class="content mx-0">
-        <Itemcard v-on:cardHover="updateCircle" v-for="project in featured" :key="project" :link="project.link" :text="project.text" :detail="project.details" :title="project.title" :image="project.img" :theme="project.theme" :feature="project.feature" :langs="project.lang" />
-      </div>
-      <div v-if="showAll" class="content">
-        <Itemcard v-on:cardHover="updateCircle" v-for="project in projects" :key="project" :link="project.link" :text="project.text" :detail="project.details" :title="project.title" :image="project.img" :theme="project.theme" :feature="project.feature" :langs="project.lang" />
-      </div>
-    </TransitionGroup>
-
   </div>
+
   <Footer></Footer>
 </template>
 

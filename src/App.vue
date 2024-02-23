@@ -1,25 +1,39 @@
 <template>
 
-  <div class="blob overflow-hidden">
+  <div class="blob overflow-hidden" v-if="!showMobileMenu">
     <Blob></Blob>
   </div>
 
   <div id="nav">
-    <div class="container clear">
-      <router-link to="/" class="logo">
-        <div class="rounded-circle avatar border border-4 bg-white d-block position-absolute overflow-hidden pulse-red">
-          <img src="/asset/gravatar.png" alt="JP" class="w-100">
-        </div>
-      </router-link>
-      <div class="nav-links">
-        <router-link to="/" class="nav-a">Home</router-link>
-        <router-link to="/about/" class="nav-a">About</router-link>
-        <a href="https://jpe.itch.io/" target="_blank" class="nav-a">Itch.io<span class="d-none d-md-inline ps-2"> &#8599;</span></a>
+    <div class="container d-flex align-items-center w-100 clear h-100">
+      <div class="d-block w-100">
+        <router-link to="/" class="logo">
+          <div class="rounded-circle avatar border border-4 bg-white d-block position-relative overflow-hidden pulse-red">
+            <img src="/asset/gravatar.png" alt="JP" class="w-100">
+          </div>
+        </router-link>
       </div>
+      <div class="nav-links opacity-0">
+        <a href="#menu" :class="'nav-hamburger ' + ((showMobileMenu) ? 'active' : 'inactive' )" class="nav-hamburger" @click="showMobileMenu = !showMobileMenu"></a>
+      </div>
+
+      <div :class="{ active: showMobileMenu }" @click="showMobileMenu = !showMobileMenu" class="sidenav position-fixed h-100 w-100 start-0 top-0">
+
+        <ul class="sidenav-content w-100 h-100 ms-auto d-flex align-items-center justify-content-center flex-wrap align-content-center overflow-hidden position-relative">
+          <li class="blob overflow-hidden position-absolute right-0 top-0" v-if="showMobileMenu">
+            <Blob></Blob>
+          </li>
+          <li class="position-relative w-100 d-block px-5"><router-link to="/" class="hero ms-md-5">Home</router-link></li>
+          <li class="position-relative w-100 d-block px-5"><router-link to="/about/" class="hero ms-md-5">About</router-link></li>
+          <li class="position-relative w-100 d-block px-5"><a href="https://jpe.itch.io/" target="_blank" class="hero ms-md-5">Itch.io<span class="d-inline ps-2"> &#8599;</span></a></li>
+          <li class="position-relative w-100 d-block px-5"><router-link to="/contact/" class="hero ms-md-5">Get in touch</router-link></li>
+        </ul>
+      </div>
+
     </div>
   </div>
 
-  <div class="overflow-hidden position-relative">
+  <div class="router-view overflow-hidden position-relative">
     <router-view v-slot="{ Component, route }">
       <transition name="page-fade">
         <div class="w-100 overflow-hidden top-0 start-0 position-relative-soft" :key="route.path">
@@ -93,6 +107,11 @@
 
   export default {
     name: 'Home',
+    data() {
+      return {
+        showMobileMenu: false
+      }
+    },
     components: {
       Blob
     }

@@ -1,10 +1,11 @@
 <template>
   <div id="home" class="d-block position-relative w-100 pt-5">
     <div class="container d-block position-relative py-5">
-      <div class="d-block py-5 mt-3">
-        <h1 class="text-white mt-5 hero fw-bold mb-2">
+      <div class="d-block pt-5 mt-3">
+        <h1 class="text-white mt-5 hero fw-bold mb-4">
           Let's start a<br>project <em>together</em>.
         </h1>
+        <a href="mailto:johnpaulburato@gmail.com" class="text-white text-decoration-none d-block">E. johnpaulburato[@]gmail[.]com</a>
       </div>
     </div>
     <div class="container input-wrap-container d-block position-relative text-white">

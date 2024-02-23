@@ -15,7 +15,8 @@
     "swiper": "^10.0.4",
     "vue": "^3.0.0",
     "vue-analytics": "^5.22.1",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "vue3-perfect-scrollbar": "^1.6.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

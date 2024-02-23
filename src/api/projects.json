@@ -1,46 +1,40 @@
 [
     { 
-        "title": "Hans - WIP",
-        "details": "Clean and minimalist photography portfolio template.",
-        "lang": ["Portfolio", "PHP", "Bootstrap"],
-        "link": "https://photo-mu.vercel.app/",
-        "img": "./asset/photo.jpg",
-        "text": "Visit Site",
-        "feature" : "Portfolio",
-        "theme": "#999999"
-    },
-    { 
         "title": "McHanjo",
+        "slug": "mchanjo",
         "details": "McHanjo's proposed corporate website. Created with Bootstrap5 and PHP for page routing.",
         "lang": ["Website", "PHP", "Bootstrap"],
         "link": "https://mchanjo.com/dev/",
         "img": "./asset/mchanjo.jpg",
         "text": "Visit Site" ,
-        "feature" : "Brochure Site",
+        "feature" : "Brochure Website",
         "theme": "#ce2424"
     },
     { 
         "title": "Progressive Medical Corporation",
+        "slug": "pmc",
         "details": "A responsive website that features it's own custom CMS where admins can edit it's content.", 
         "lang": ["Website", "Materialize", "PHP"],
         "link": "https://pmc.ph/",
         "img": "./asset/pmc.jpg",
         "text": "Visit Site",
-        "feature" : "Corporate Site",
+        "feature" : "Corporate Website",
         "theme": "#10155e"
     },
     { 
         "title": "PMC Meet",
+        "slug": "pmc-meet",
         "details": "Video conferencing desktop app launcher created with Vue.js and Electron.js.", 
         "lang": ["Desktop", "Vue.js", "Electron.js"],
         "link": "https://github.com/jpneey/pmc-meet/",
         "img": "./asset/meet.jpg",
         "text": "Visit Repo" ,
-        "feature" : "Desktop App",
+        "feature" : "Desktop Application",
         "theme": "#1c8f86"
     },
     { 
         "title": "PMC Portal",
+        "slug": "pmc-portal",
         "details": "Product portal with hand picked prices per product per customer developed on top of wordpress and woocommerce API", 
         "lang": ["Portal", "PHP", "WP Rest API"],
         "link": "https://pmc.ph/portal/login/",
@@ -51,36 +45,40 @@
     },
     { 
         "title": "Panamed",
+        "slug": "panamed",        
         "details": "A flat and modern looking minimalist website packed with a custom CMS created with PHP and Materialize.css.", 
         "lang": ["Custom CMS", "PHP", "Materialize"],
         "link": "https://panamed.com.ph",
         "img": "./asset/ppi.png",
         "text": "Visit Site" ,
-        "feature" : "Corporate Site",
+        "feature" : "Corporate Website",
         "theme": "#1249a6"
     },
     { 
         "title": "PMC Group of Companies",
+        "slug": "pmcg",
         "details": "A two-pager responsive website created with minimalism in mind.", 
         "lang": ["Website", "Materialize", "Jquery"],
         "link": "http://pmcgroup.com",
         "img": "./asset/pmcg.jpg",
         "text": "Visit Site",
-        "feature" : "Corporate Site",
+        "feature" : "Corporate Website",
         "theme": "#e0ac22"
     },
     { 
         "title": "Senzmedical",
+        "slug": "senz",
         "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
         "lang": ["Website", "Materialize", "Jquery"],
         "link": "http://senz-medical.com",
         "img": "./asset/senz.jpg",
         "text": "Visit Site" ,
-        "feature" : "Brochure Site",
+        "feature" : "Brochure Website",
         "theme": "#1249a6"
     },
     { 
         "title": "Canvasspoint",
+        "slug": "canvasspoint",
         "details": "A custom CMS with multiple users, biddings, blogging and more!", 
         "lang": ["Web System", "PHP", "Materialize"],
         "link": "https://canvasspoint.com",
@@ -91,22 +89,24 @@
     },
     { 
         "title": "Opus Academy",
+        "slug": "opus",
         "details": "Clean and mobile friendly website with multi language support created on bootstrap 4", 
         "lang": ["Website", "Bootstrap", "Jquery"],
         "link": "https://opusacademy.com",
         "img": "./asset/opus.jpg",
         "text": "Visit Site" ,
-        "feature" : "Multi Language",
+        "feature" : "Corporate Website",
         "theme": "#0069d9"
     },
     { 
         "title": "Inmed Corporation",
+        "slug": "inmed",
         "details": "Material design inspired website with blogging module and integrated opencart.", 
         "lang": ["Website", "PHP", "Materialize"],
         "link": "https://inmed.com.ph",
         "img": "./asset/inmed.jpg",
         "text": "Visit Site" ,
-        "feature" : "Corporate Site",
+        "feature" : "Corporate Website",
         "theme": "#ff7600"
     }
 ]

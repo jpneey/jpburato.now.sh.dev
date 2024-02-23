@@ -6,7 +6,7 @@
           A developer<br>Based in the <em>Philippines</em>.
         </h1>
         <p class="text-white mb-3">Writing code and building things for the web since <code>2018</code>.</p>
-        <router-link to="/contact/"  class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch <i class="material-icons align-middle ms-2">open_in_new</i></router-link>
+        <router-link to="/contact/"  class="btn btn-danger fw-bold py-3 px-5 me-3">Get in touch</router-link>
       </div>
     </div>
     <div class="container d-block position-relative text-white">
