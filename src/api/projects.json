@@ -13,7 +13,7 @@
     { 
         "title": "Progressive Medical Corporation",
         "slug": "pmc",
-        "details": "A responsive website that features it's own custom CMS where admins can edit it's content.", 
+        "details": "A responsive website that features it's own custom CMS where admins can edit content.", 
         "lang": ["Website", "Materialize", "PHP"],
         "link": "https://pmc.ph/",
         "img": "./asset/pmc.jpg",
@@ -79,7 +79,7 @@
     { 
         "title": "Canvasspoint",
         "slug": "canvasspoint",
-        "details": "A custom CMS with multiple users, biddings, blogging and more!", 
+        "details": "A custom CMS with user management module, biddings, blogging and more!", 
         "lang": ["Web System", "PHP", "Materialize"],
         "link": "https://canvasspoint.com",
         "img": "./asset/cnp.jpg",

@@ -2,7 +2,7 @@
     { 
         "title": "Photo Portfolio",
         "slug": "hans",
-        "details": "Clean and minimalist photography portfolio template.",
+        "details": "Clean and minimalist photography portfolio template written in bootstrap 5.",
         "lang": ["Portfolio", "PHP", "Bootstrap"],
         "link": "https://photo-mu.vercel.app/",
         "img": "./asset/photo.jpg",
@@ -13,7 +13,7 @@
     { 
         "title": "Peak Pilates",
         "slug": "peak-pilates",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A woocommerce supported theme with several bespoke functionalies.",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A woocommerce supported theme with several bespoke functionalies including a product comparison module and ACF powered blocks.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
         "feature" : "Woocommerce Website",
         "link": "https://peakpilates.co.uk/",
@@ -24,7 +24,7 @@
     { 
         "title": "The Medical Shop",
         "slug": "the-medical-shop",
-        "details": "The first online medical store in the Philippines. Opencart 3.x. theme created from scratch", 
+        "details": "A modern bootstrap powered Opencart 3.x. theme created from scratch", 
         "lang": ["Ecommerce", "Twig", "Opencart"],
         "link": "https://medicalshop.ph",
         "img": "./asset/tms.jpg",
@@ -35,7 +35,7 @@
     { 
         "title": "Titanium Fireworks",
         "slug": "titanium-fireworks",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery.",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery featuring custom post types and bespoke forms.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
         "feature" : "Brochure Site",
         "link": "https://www.titaniumfireworks.com/",
@@ -46,7 +46,7 @@
     { 
         "title": "GT Stoneworks",
         "slug": "gt-stoneworks",
-        "details": "A mobile app created with React, Cordova and PHP.", 
+        "details": "An android and iOS app created with React and compiled using Cordova. Backend is powered by a bespoke CMS written from scratch.", 
         "lang": ["App", "React", "Cordova", "PHP"],
         "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
         "img": "./asset/gt-1.jpg",
@@ -58,7 +58,7 @@
     { 
         "title": "Stirling Maynard",
         "slug": "stirling-maynard",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Flat, with good amount of spacing. A bespoke theme from scratch",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A bespoke wordpress theme created from scratch using ACF with support for custom post types.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
         "feature" : "Corporate Website",
         "link": "https://stirlingmaynard.com/",
@@ -69,7 +69,7 @@
     { 
         "title": "Scichart",
         "slug": "scichart",
-        "details": "<i>One of my biggest projects from <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A fresh and modern theme that plays with dark and gradient colours.",
+        "details": "<i>One of my biggest projects from <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A fresh and modern theme that plays with dark and gradient colours. Features various API integrations, custom post types and forums.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
         "feature" : "Woocommerce Website",
         "link": "https://www.scichart.com/",
