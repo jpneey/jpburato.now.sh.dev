@@ -7,8 +7,19 @@
         "link": "https://photo-mu.vercel.app/",
         "img": "./asset/photo.jpg",
         "text": "Visit Site",
-        "feature" : "Portfolio Website",
+        "feature" : "Portfolio Template",
         "theme": "#999999"
+    },
+    { 
+        "title": "Horizontal Portfolio",
+        "slug": "jp-horiz",
+        "details": "A bespoke mobile responsive portfolio template with one page horizontal scrolling user experience.", 
+        "lang": ["Website", "Javascript", "CSS"],
+        "link": "https://jpburato.vercel.app/demo/horizontal/",
+        "img": "./asset/jphoriz.jpg",
+        "text": "Visit Site",
+        "feature" : "Portfolio Template",
+        "theme": "#8626e2"
     },
     { 
         "title": "Peak Pilates",
@@ -42,6 +53,17 @@
         "img": "./asset/tf.jpg",
         "text": "Visit Site",
         "theme": "#2d2d2d"
+    },
+    { 
+        "title": "Horizontal Portfolio",
+        "slug": "jp-vertical",
+        "details": "A bespoke mobile responsive portfolio template with one page vertical scrolling user experience.", 
+        "lang": ["Website", "Javascript", "CSS"],
+        "link": "https://jpburato.vercel.app/demo/vertical/",
+        "img": "./asset/jpvertical.jpg",
+        "text": "Visit Site",
+        "feature" : "Portfolio Template",
+        "theme": "#999999"
     },
     { 
         "title": "GT Stoneworks",
