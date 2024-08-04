@@ -108,5 +108,16 @@
         "text": "Visit Site" ,
         "feature" : "Corporate Website",
         "theme": "#ff7600"
+    },
+    { 
+        "title": "Titanium Fireworks",
+        "slug": "titanium-fireworks",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery featuring custom post types and bespoke forms.",
+        "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Brochure Site",
+        "link": "https://www.titaniumfireworks.com/",
+        "img": "./asset/tf.jpg",
+        "text": "Visit Site",
+        "theme": "#2d2d2d"
     }
 ]

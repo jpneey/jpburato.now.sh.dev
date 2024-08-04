@@ -11,6 +11,17 @@
         "theme": "#999999"
     },
     { 
+        "title": "Elev8 Edge",
+        "slug": "elev8",
+        "details": "A minimalist and modern digital collective template created with Bootstrap 5.",
+        "lang": ["Bootstrap", "jQuery"],
+        "feature" : "Woocommerce Website",
+        "link": "https://peakpilates.co.uk/",
+        "img": "./asset/elev8.jpg",
+        "text": "Visit Site",
+        "theme": "#333"
+    },
+    { 
         "title": "Horizontal Portfolio",
         "slug": "jp-horiz",
         "details": "A bespoke mobile responsive portfolio template with one page horizontal scrolling user experience.", 
@@ -20,17 +31,6 @@
         "text": "Visit Site",
         "feature" : "Portfolio Template",
         "theme": "#8626e2"
-    },
-    { 
-        "title": "Peak Pilates",
-        "slug": "peak-pilates",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A woocommerce supported theme with several bespoke functionalies including a product comparison module and ACF powered blocks.",
-        "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "feature" : "Woocommerce Website",
-        "link": "https://peakpilates.co.uk/",
-        "img": "./asset/pp.jpg",
-        "text": "Visit Site",
-        "theme": "#007aff"
     },
     { 
         "title": "The Medical Shop",
@@ -44,15 +44,15 @@
         "theme": "rgb(244 190 30)"
     },
     { 
-        "title": "Titanium Fireworks",
-        "slug": "titanium-fireworks",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery featuring custom post types and bespoke forms.",
+        "title": "Peak Pilates",
+        "slug": "peak-pilates",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A woocommerce supported theme with several bespoke functionalies including a product comparison module and ACF powered blocks.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "feature" : "Brochure Site",
-        "link": "https://www.titaniumfireworks.com/",
-        "img": "./asset/tf.jpg",
+        "feature" : "Woocommerce Website",
+        "link": "https://peakpilates.co.uk/",
+        "img": "./asset/pp.jpg",
         "text": "Visit Site",
-        "theme": "#2d2d2d"
+        "theme": "#007aff"
     },
     { 
         "title": "Horizontal Portfolio",
@@ -91,7 +91,7 @@
     { 
         "title": "Scichart",
         "slug": "scichart",
-        "details": "<i>One of my biggest projects from <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A fresh and modern theme that plays with dark and gradient colours. Features various API integrations, custom post types and forums.",
+        "details": "<i>One of my biggest projects with <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A fresh and modern theme that plays with dark and gradient colours. Features various API integrations, custom post types and forums.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
         "feature" : "Woocommerce Website",
         "link": "https://www.scichart.com/",
