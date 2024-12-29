@@ -1,21 +1,32 @@
 [
     { 
-        "title": "Photo Portfolio",
+        "title": "Photo MU",
         "slug": "hans",
         "details": "Clean and minimalist photography portfolio template written in bootstrap 5.",
         "lang": ["Portfolio", "PHP", "Bootstrap"],
         "link": "https://photo-mu.vercel.app/",
         "img": "./asset/photo.jpg",
         "text": "Visit Site",
-        "feature" : "Portfolio Template",
+        "feature" : "Brochure Website",
         "theme": "#999999"
+    },
+    { 
+        "title": "Undying",
+        "slug": "undying",
+        "details": "A curated list of the best zombie, infected, and apocalyptic movies and series for your next thrilling binge-watch.",
+        "lang": ["Vue.js"],
+        "link": "https://undying.vercel.app/",
+        "img": "./asset/undying.png",
+        "text": "Visit Site",
+        "feature" : "Vue Website",
+        "theme": "#111"
     },
     { 
         "title": "Elev8 Edge",
         "slug": "elev8",
         "details": "A minimalist and modern digital collective template created with Bootstrap 5.",
         "lang": ["Bootstrap", "jQuery"],
-        "feature" : "Woocommerce Website",
+        "feature" : "Brochure Website",
         "link": "https://elev88.vercel.app/",
         "img": "./asset/elev8.jpg",
         "text": "Visit Site",
@@ -29,7 +40,7 @@
         "link": "https://jpburato.vercel.app/demo/horizontal/",
         "img": "./asset/jphoriz.jpg",
         "text": "Visit Site",
-        "feature" : "Portfolio Template",
+        "feature" : "Brochure Template",
         "theme": "#8626e2"
     },
     { 
@@ -40,7 +51,7 @@
         "link": "https://medicalshop.ph",
         "img": "./asset/tms.jpg",
         "text": "Shop Online" ,
-        "feature" : "Woocommerce Website",
+        "feature" : "Opencart Website",
         "theme": "rgb(244 190 30)"
     },
     { 
@@ -55,7 +66,18 @@
         "theme": "#007aff"
     },
     { 
-        "title": "Horizontal Portfolio",
+        "title": "Serious Food",
+        "slug": "serious-food",
+        "details": "Neat one page scroll wordpress website.",
+        "lang": ["Wordpress", "PHP", "ACF"],
+        "link": "https://www.seriousfood.co.uk/",
+        "img": "./asset/seriousfood.jpg",
+        "text": "Visit Site",
+        "feature" : "Brochure Website",
+        "theme": "#544de8"
+    },
+    { 
+        "title": "Vertical Portfolio",
         "slug": "jp-vertical",
         "details": "A bespoke mobile responsive portfolio template with one page vertical scrolling user experience.", 
         "lang": ["Website", "Javascript", "CSS"],
@@ -73,7 +95,7 @@
         "link": "https://play.google.com/store/apps/details?id=org.stoneworksbeta.app",
         "img": "./asset/gt-1.jpg",
         "text": "Download",
-        "feature" : "Mobile App",
+        "feature" : "React and Cordova App",
         "theme": "#efddaf",
         "type": "mobile-app"
     },
@@ -82,7 +104,7 @@
         "slug": "stirling-maynard",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> A bespoke wordpress theme created from scratch using ACF with support for custom post types.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "feature" : "Corporate Website",
+        "feature" : "Brochure Website",
         "link": "https://stirlingmaynard.com/",
         "img": "./asset/sm.jpg",
         "text": "Visit Site",
@@ -100,14 +122,14 @@
         "theme": "#1a074b"
     },
     { 
-        "title": "Marshal Papworth",
-        "slug": "marshal-papworth",
-        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Flat, clean and bold colors with custom post type and map integration.",
-        "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "feature" : "Membership Portal",
-        "link": "https://www.marshalpapworth.com/",
-        "img": "./asset/mp.jpg",
-        "text": "Visit Site",
-        "theme": "#8fc33e"
+        "title": "Senz Medical",
+        "slug": "senz",
+        "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
+        "lang": ["Website", "Materialize", "Jquery"],
+        "link": "http://senz-medical.com",
+        "img": "./asset/senz.jpg",
+        "text": "Visit Site" ,
+        "feature" : "Brochure Website",
+        "theme": "#1249a6"
     }
 ]

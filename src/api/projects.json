@@ -18,7 +18,7 @@
         "link": "https://pmc.ph/",
         "img": "./asset/pmc.jpg",
         "text": "Visit Site",
-        "feature" : "Corporate Website",
+        "feature" : "Brochure Website",
         "theme": "#10155e"
     },
     { 
@@ -29,7 +29,7 @@
         "link": "https://github.com/jpneey/pmc-meet/",
         "img": "./asset/meet.jpg",
         "text": "Visit Repo" ,
-        "feature" : "Desktop Application",
+        "feature" : "Electron Application",
         "theme": "#1c8f86"
     },
     { 
@@ -40,7 +40,7 @@
         "link": "https://pmc.ph/portal/login/",
         "img": "./asset/pmc-portal.png",
         "text": "Visit Portal" ,
-        "feature" : "Shopping portal",
+        "feature" : "Headless Wordpress",
         "theme": "#052a69"
     },
     { 
@@ -51,7 +51,7 @@
         "link": "https://panamed.com.ph",
         "img": "./asset/ppi.png",
         "text": "Visit Site" ,
-        "feature" : "Corporate Website",
+        "feature" : "Brochure Website",
         "theme": "#1249a6"
     },
     { 
@@ -62,19 +62,8 @@
         "link": "http://pmcgroup.com",
         "img": "./asset/pmcg.jpg",
         "text": "Visit Site",
-        "feature" : "Corporate Website",
-        "theme": "#e0ac22"
-    },
-    { 
-        "title": "Senzmedical",
-        "slug": "senz",
-        "details": "A flat and modern looking minimalist website created with PHP and Materialize.css.", 
-        "lang": ["Website", "Materialize", "Jquery"],
-        "link": "http://senz-medical.com",
-        "img": "./asset/senz.jpg",
-        "text": "Visit Site" ,
         "feature" : "Brochure Website",
-        "theme": "#1249a6"
+        "theme": "#e0ac22"
     },
     { 
         "title": "Canvasspoint",
@@ -84,7 +73,7 @@
         "link": "https://canvasspoint.com",
         "img": "./asset/cnp.jpg",
         "text": "Start Bidding" ,
-        "feature" : "Membership Portal",
+        "feature" : "PHP Application",
         "theme": "#ff9800"
     },
     { 
@@ -95,7 +84,7 @@
         "link": "https://opusacademy.com",
         "img": "./asset/opus.jpg",
         "text": "Visit Site" ,
-        "feature" : "Corporate Website",
+        "feature" : "Brochure Website",
         "theme": "#0069d9"
     },
     { 
@@ -106,7 +95,7 @@
         "link": "https://inmed.com.ph",
         "img": "./asset/inmed.jpg",
         "text": "Visit Site" ,
-        "feature" : "Corporate Website",
+        "feature" : "Brochure Website",
         "theme": "#ff7600"
     },
     { 
@@ -114,10 +103,21 @@
         "slug": "titanium-fireworks",
         "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Clean, minimalist wordpress theme with focus on high quality imagery featuring custom post types and bespoke forms.",
         "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
-        "feature" : "Brochure Site",
+        "feature" : "Wordpress Website",
         "link": "https://www.titaniumfireworks.com/",
         "img": "./asset/tf.jpg",
         "text": "Visit Site",
         "theme": "#2d2d2d"
+    },
+    { 
+        "title": "Marshal Papworth",
+        "slug": "marshal-papworth",
+        "details": "<i>Web designed by <a href='https://www.echowebsolutions.co.uk/websites/' target='_blank'>Echo</a>.</i> Flat, clean and bold colors with custom post type and map integration.",
+        "lang": ["Wordpress", "PHP", "Bootstrap", "jQuery"],
+        "feature" : "Wordpress Website",
+        "link": "https://www.marshalpapworth.com/",
+        "img": "./asset/mp.jpg",
+        "text": "Visit Site",
+        "theme": "#8fc33e"
     }
 ]

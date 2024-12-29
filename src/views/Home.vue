@@ -3,7 +3,7 @@
     <div class="container d-block position-relative py-5">
       <div class="d-block py-5 mt-3">
         <h1 class="text-white hero mt-5 fw-bold mb-3">I am <em>building</em><br>things for the web.</h1>
-        <p class="text-white mb-4">I specialize on the <code>LAMP</code> stack, <code>Wordpress core</code> and <code>WooCommerce</code>.<br>Scroll down to see some of my work.</p>
+        <p class="text-white mb-4">Specializing on <code>PHP</code>, <Code>SQL</code>, Wordpress theme ( <code>ACF</code>, <code>Gutenberg</code> ) and plugin development,<br>WooCommerce integration, <code>Vue</code> and <code>React</code>.</p>
         <router-link to="/about/" class="btn btn-danger fw-bold py-3 px-5 me-3">About</router-link>
         <router-link to="/contact/"  class="btn btn-primary d-none d-md-inline-block fw-bold py-3 px-5 me-3">Get in touch</router-link>
       </div>
