@@ -1,16 +1,5 @@
 [
     { 
-        "title": "Photo MU",
-        "slug": "hans",
-        "details": "Clean and minimalist photography portfolio template written in bootstrap 5.",
-        "lang": ["Portfolio", "PHP", "Bootstrap"],
-        "link": "https://photo-mu.vercel.app/",
-        "img": "./asset/photo.jpg",
-        "text": "Visit Site",
-        "feature" : "Brochure Website",
-        "theme": "#999999"
-    },
-    { 
         "title": "Undying",
         "slug": "undying",
         "details": "A curated list of the best zombie, infected, and apocalyptic movies and series for your next thrilling binge-watch.",
@@ -33,15 +22,37 @@
         "theme": "#333"
     },
     { 
-        "title": "Horizontal Portfolio",
-        "slug": "jp-horiz",
-        "details": "A bespoke mobile responsive portfolio template with one page horizontal scrolling user experience.", 
-        "lang": ["Website", "Javascript", "CSS"],
-        "link": "https://jpburato.vercel.app/demo/horizontal/",
-        "img": "./asset/jphoriz.jpg",
+        "title": "Pokedex",
+        "slug": "Pokedex",
+        "details": "Simple Pokedex app using Vue.",
+        "lang": ["Vue.js", "CSS"],
+        "link": "https://pokedex-jp.vercel.app/",
+        "img": "./asset/pokedex.jpg",
         "text": "Visit Site",
-        "feature" : "Brochure Template",
-        "theme": "#8626e2"
+        "feature" : "Vue App",
+        "theme": "#ddd"
+    },
+    { 
+        "title": "Patio Pavers Direct",
+        "slug": "pavers",
+        "details": "A modern Magento 2 powered website.",
+        "lang": ["PHP", "Magento 2"],
+        "link": "https://pokedex-jp.vercel.app/",
+        "img": "./asset/pavers.jpg",
+        "text": "Visit Site",
+        "feature" : "Magento 2 Website",
+        "theme": "#ddd"
+    },
+    { 
+        "title": "Photo MU",
+        "slug": "hans",
+        "details": "Clean and minimalist photography portfolio template written in bootstrap 5.",
+        "lang": ["Portfolio", "PHP", "Bootstrap"],
+        "link": "https://photo-mu.vercel.app/",
+        "img": "./asset/photo.jpg",
+        "text": "Visit Site",
+        "feature" : "Brochure Website",
+        "theme": "#999999"
     },
     { 
         "title": "The Medical Shop",
@@ -51,7 +62,7 @@
         "link": "https://medicalshop.ph",
         "img": "./asset/tms.jpg",
         "text": "Shop Online" ,
-        "feature" : "Opencart Website",
+        "feature" : "Opencart 3 Website",
         "theme": "rgb(244 190 30)"
     },
     { 
@@ -64,6 +75,17 @@
         "img": "./asset/pp.jpg",
         "text": "Visit Site",
         "theme": "#007aff"
+    },
+    { 
+        "title": "Horizontal Portfolio",
+        "slug": "jp-horiz",
+        "details": "A bespoke mobile responsive portfolio template with one page horizontal scrolling user experience.", 
+        "lang": ["Website", "Javascript", "CSS"],
+        "link": "https://jpburato.vercel.app/demo/horizontal/",
+        "img": "./asset/jphoriz.jpg",
+        "text": "Visit Site",
+        "feature" : "Brochure Template",
+        "theme": "#8626e2"
     },
     { 
         "title": "Serious Food",

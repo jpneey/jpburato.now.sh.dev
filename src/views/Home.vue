@@ -11,8 +11,8 @@
   </div>
 
   <div class="container d-flex pb-3">
-    <span @click="showFeatured = true, showAll = false" :class="[showFeatured ? 'on' : '']" class="text-secondary text-uppercase fw-small me-3">Recent works ({{ featured.length }})</span>
-    <span @click="showFeatured = false, showAll = true" :class="[showAll ? 'on' : '']" class="text-secondary text-uppercase fw-small">All ({{ projects.length }})</span>
+    <span @click="showFeatured = true, showAll = false" :class="[showFeatured ? 'on' : '']" class="text-secondary text-uppercase fw-small me-3">Featured ({{ featured.length }})</span>
+    <span @click="showFeatured = false, showAll = true" :class="[showAll ? 'on' : '']" class="text-secondary text-uppercase fw-small">Recent ({{ projects.length }})</span>
   </div>
   <div class="container">
     <div class="circle-container position-relative overflow-hidden pt-4">

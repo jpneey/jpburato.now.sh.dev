@@ -1,10 +1,10 @@
 [
     {
       "duration": "Aug 2021 – Present",
-      "position": "Website Developer",
+      "position": "Senior Website Developer",
       "company": "Echo Web Solutions",
-      "role": "Developing wordpress plugins and themes from scratch.",
-      "tool": ["PHP", "MySQL", "Jquery", "Bootstrap 5", "React.js", "Shopify", "GIT", "ACF", "Wordpress Core", "SSO (Keycloak)", "Woocommerce"],
+      "role": "Developing wordpress plugins and themes from scratch and bespoke API integrations.",
+      "tool": ["PHP", "MySQL", "Jquery", "Bootstrap 5", "React.js", "GIT", "ACF", "Wordpress", "Gutenberg", "SSO", "Woocommerce", "Magento 2", "Shopify" ],
       "total": null,
       "start": "2021-06-11T16:00:00+0800"
     },
