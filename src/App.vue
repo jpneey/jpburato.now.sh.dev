@@ -4,8 +4,8 @@
     <Blob></Blob>
   </div>
 
-  <div id="nav">
-    <div class="container d-flex align-items-center w-100 clear h-100">
+  <div id="nav" class="pt-lg-5 pt-3">
+    <div class="container-xl d-flex align-items-center w-100 clear h-100">
       <div class="d-block w-100">
         <router-link to="/" class="logo">
           <div class="rounded-circle avatar border border-4 bg-white d-block position-relative overflow-hidden pulse-red">
@@ -18,15 +18,11 @@
       </div>
 
       <div :class="{ active: showMobileMenu }" @click="showMobileMenu = !showMobileMenu" class="sidenav position-fixed h-100 w-100 start-0 top-0">
-
         <ul class="sidenav-content w-100 h-100 ms-auto d-flex align-items-center justify-content-center flex-wrap align-content-center overflow-hidden position-relative">
           <li class="blob overflow-hidden position-absolute right-0 top-0" v-if="showMobileMenu">
             <Blob></Blob>
           </li>
-          <li class="position-relative w-100 d-block px-5"><router-link to="/" class="hero ms-md-5">Home</router-link></li>
-          <li class="position-relative w-100 d-block px-5"><router-link to="/about/" class="hero ms-md-5">About</router-link></li>
-          <li class="position-relative w-100 d-block px-5"><a href="https://jpe.itch.io/" target="_blank" class="hero ms-md-5">Itch.io<span class="d-inline ps-2"> &#8599;</span></a></li>
-          <li class="position-relative w-100 d-block px-5"><router-link to="/contact/" class="hero ms-md-5">Get in touch</router-link></li>
+          <Links></Links>
         </ul>
       </div>
 
@@ -104,6 +100,7 @@
 
 <script>
   import Blob from '@/components/Blob';
+  import Links from '@/components/Links';
 
   export default {
     name: 'Home',
@@ -113,7 +110,8 @@
       }
     },
     components: {
-      Blob
+      Blob,
+      Links,
     }
   }
 </script>
