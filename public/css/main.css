@@ -209,7 +209,7 @@ li.blob {
 }
 
 .btn {
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 .btn-sm {
@@ -342,6 +342,7 @@ i a {
   }
 }
 .feature-column {
+  border-radius: 4px;
   padding: 30px 0;
 }
 
@@ -378,7 +379,7 @@ i a {
 
 .feature-column.modern {
   cursor: pointer;
-  padding-top: 50%;
+  padding-top: 100%;
   background: #180101;
 }
 
@@ -409,11 +410,13 @@ i a {
 }
 
 .image-fragment {
-  width: 50%;
-  top: 50px;
+  width: 60%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%);
   transition: all 0.3s ease-out;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1803921569);
+  border-radius: 8px;
 }
 
 .feature-column__content-gradient {
@@ -864,12 +867,85 @@ ul.project-meta-list li * {
     height: 20px;
   }
 }
-.desktop-menu li {
-  padding: 0 !important;
-  width: auto !important;
-  display: inline-block !important;
+.intro-backdrop {
+  height: 90vh;
 }
-.desktop-menu li a {
-  margin: 0 !important;
-  font-size: 14px !important;
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skill-icons .skill-icon {
+  width: auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+}
+.skill-icons .skill-icon span {
+  position: absolute;
+  background: #dc3545;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  display: inline;
+  padding: 2px 10px;
+  top: calc(100% + 10PX);
+  min-width: 100%;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.skill-icons .skill-icon:hover span {
+  opacity: 1;
+}
+.skill-icons .skill-icon .skill {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.skill-icons .skill-icon .skill img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.skill-icons:is(.is-small) .skill {
+  width: 30px;
+  height: 30px;
+}
+
+.project-wrapper #projects {
+  background: #fff;
+  width: 600px;
+  height: 300px;
+  margin-left: -300px;
+  margin-top: -150px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: fixed;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.project-wrapper #projects img {
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  position: absolute;
+  width: 80%;
+}
+.project-wrapper:hover #projects {
+  opacity: 0.25;
+  transform: scale(1);
 }/*# sourceMappingURL=main.css.map */

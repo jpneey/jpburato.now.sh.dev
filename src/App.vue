@@ -1,5 +1,9 @@
 <template>
 
+  <div class="intro-backdrop position-absolute top-0 start-0 w-100">
+    
+  </div>
+
   <div class="blob overflow-hidden" v-if="!showMobileMenu">
     <Blob></Blob>
   </div>

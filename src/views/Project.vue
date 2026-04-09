@@ -58,7 +58,7 @@
 import Footer from '@/components/Footer';
 import NotFound from '@/views/404.vue';
 import projects from '@/api/projects.json';
-import featured from '@/api/featured.json';
+import featured from '@/api/featured_home.json';
 import { PerfectScrollbar } from 'vue3-perfect-scrollbar';
 
 const toTop = () => {

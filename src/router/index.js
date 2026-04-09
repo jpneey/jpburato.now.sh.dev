@@ -3,6 +3,7 @@ import Home from '../views/Home';
 import About from '../views/About';
 import Contact from '../views/Contact';
 import Project from '../views/Project';
+import Work from '../views/Work';
 
 const routes = [
   {
@@ -23,6 +24,20 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
+    meta: {
+      title: 'About - John Paul Burato',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'A website and visual novel developer and a Bachelor of Science In Information Technology graduate from a state university in the province of Rizal, Philippines'
+        }
+      ]
+    }
+  },
+  {
+    path: '/work',
+    name: 'Work',
+    component: Work,
     meta: {
       title: 'About - John Paul Burato',
       metaTags: [
